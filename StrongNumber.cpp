@@ -13,15 +13,16 @@ int main()
     cin>>a;
     
     int fact = 1;
-    int sum=0;
+    int sum=0,n=0;
     for(int i=1; i<=a; i++)
+    
     {
     fact = fact * i;
-    sum = sum + a % 10;
-    a = a/10;
+    fact = fact + n % 10;
+    n = n/10;
     }
     
-    if(a==sum)
+    if(a==fact)
     {
         cout<<"It is a Strong Number"<<fact<<"  "<<sum;
     }
