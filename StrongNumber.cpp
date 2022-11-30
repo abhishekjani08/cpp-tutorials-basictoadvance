@@ -1,43 +1,28 @@
 /******************************************************************************
 Write a program to identify if the number is Strong number or not
 *******************************************************************************/
-
 #include <iostream>
-
 using namespace std;
 
-int factorialfunction(int n)
-{
-    int fact = 1;
-    for (int i = 1; i <= n; i++)
-    {
-        fact *= i;
-    }
-    return fact;
-}
-
-int checkstrong(int a){
-    int temp = a ;
-    int dividedigits = temp % 10;
-    int sum = sum + factorialfunction(dividedigits);
-    temp /= 10;
-return sum;
-}
 int main()
 {
-    int a;
-    cout << "Enter a Number:";
-    cin >> a;
-
-
-    if (factorialfunction(a))
-    {
-        cout << "It is a Strong Number";
-            
+    int i, n, n1;
+    int sum = 0 ;
+    long fact;
+    cout << " Enter a Number: ";
+    cin >> n;
+    n1 = n;
+    for (int j = n; j > 0; j = j / 10) {
+        fact = 1;
+        for (i = 1; i <= j % 10; i++) {
+            fact = fact * i;
+        }
+        sum = sum + fact;
     }
-    else
-    {
-        cout << "Not a Strong Number";
+    if ( sum == n1) {
+        cout << n1 << " is Strong number." << endl;
     }
-    return 0;
+    else {
+        cout << n1 << " is not a Strong number." << endl;
+    }
 }
