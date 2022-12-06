@@ -30,7 +30,7 @@ int main()
     else
     {
         cout << "\n"
-             << b << " is Not a Armstrong Number";
+             << b << " is not a Armstrong Number";
     }
     return 0;
 }
