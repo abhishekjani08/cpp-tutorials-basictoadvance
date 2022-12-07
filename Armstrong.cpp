@@ -25,12 +25,12 @@ int main()
     if (sum == b)
     {
         cout << "\n"
-             << b << " is a Armstrong Number";
+             << b << " is a Armstrong Number.";
     }
     else
     {
         cout << "\n"
-             << b << " is not a Armstrong Number";
+             << b << " is not a Armstrong Number.";
     }
     return 0;
 }
