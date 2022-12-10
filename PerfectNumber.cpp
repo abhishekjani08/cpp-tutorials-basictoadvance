@@ -20,11 +20,11 @@ int main()
     }
     if(sum == a)
     {
-        cout<<"\nIt is a Perfect Number";
+        cout<<"\nIt is a Perfect Number.";
     }
     else
     {
-        cout<<"\nIt is not a Perfect Number";
+        cout<<"\nIt is not a Perfect Number.";
     }
     return 0;
 }
