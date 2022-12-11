@@ -22,6 +22,6 @@ int main()
     int n,sum=0;
     cout<<"Enter a number:";
     cin>>n;
-    cout<<"Sum: "<<sumofdigits(n)<<endl;
+    cout<<"Sum is: "<<sumofdigits(n)<<endl;
     return 0;
 }
