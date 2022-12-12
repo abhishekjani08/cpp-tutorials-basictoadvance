@@ -13,7 +13,7 @@ int main()
     int a, b, i, sum = 0, count = 0;
     cout << "Enter a number:";
     cin >> a;
-
+    b=a;
     do
     {
         i = a % 10;
