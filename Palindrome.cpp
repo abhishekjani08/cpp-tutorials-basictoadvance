@@ -16,11 +16,11 @@ int main()
     } while (a != 0);
     if (n == rev)
     {
-        cout << "It is a palindrome number";
+        cout << "It is a palindrome number.";
     }
     else
     {
-        cout << "It is not a palindrome number";
+        cout << "It is not a palindrome number.";
     }
     return 0;
 }
