@@ -14,7 +14,6 @@ int main()
         rev = (rev * 10) + palin;
         a = a / 10;
     } while (a != 0);
-    cout<<rev;
     if (n == rev)
     {
         cout << "It is a palindrome number";
